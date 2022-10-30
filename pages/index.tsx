@@ -121,7 +121,7 @@ export default function Home() {
                         </span>
 
                         <form className='px-14 flex flex-col gap-7 w-full lg:w-1/2'>
-                            <div className='flex gap-7'>
+                            <div className='flex gap-7 flex-col md:flex-row'>
                                 <div className='w-full flex flex-col gap-3'>
                                     <label htmlFor="name" className='text-slate-500 text-lg'>Name</label>
                                     <input type="text" id="name" name="name" className='border-b border-black font-semibold p-1' />
