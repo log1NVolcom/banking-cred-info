@@ -29,7 +29,7 @@ export default function Home() {
                         <Link href='#ask-us'> <span className='link-underline link-underline-black font-semibold text-neutral-500 hover:text-black p-1'>Fale connosco</span></Link>
                     </div>
                 </div>
-                <div id="home" className='h-[calc(100vh-5rem)] pb-10'>
+                <div id="home" className='h-[calc(100vh-5rem)] pb-10 relative'>
                     <Image src={BackgroundImage} alt='background-image' className='h-full' />
 
                     <div className='absolute right-1/2 translate-x-1/2   bottom-1/2  translate-y-1/2  flex flex-col gap-10 items-center' >
